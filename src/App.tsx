@@ -2,7 +2,7 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
-import StandardCard from './components/cards/StandardCard'
+import StandardCard from './react/components/cards/StandardCard'
 
 function App() {
   const [count, setCount] = useState(0)
